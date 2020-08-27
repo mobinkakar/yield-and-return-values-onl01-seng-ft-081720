@@ -10,3 +10,7 @@ end
 
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+if name.start_with?("T")
+  puts "Hi, #{name}"
+end
+end
